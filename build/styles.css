@@ -1,0 +1,17 @@
+.code-source {
+    background: #F1F1E9;
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+}
+
+.code-source code:focus {
+    outline: none;
+}
+
+span.open, span.close {
+    color: limegreen;
+}
+
+span.tag {
+    color: brown;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "kitab.io",
+  "version": "1.0.0",
+  "description": "Simple Editor",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack",
+    "test": "mocha"
+  },
+  "keywords": [
+    "editor",
+    "kitab.io"
+  ],
+  "author": "Mohamed El Amine DADDOU",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "es2015": "0.0.0",
+    "es2017": "0.0.0",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
